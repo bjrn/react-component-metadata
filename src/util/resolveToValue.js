@@ -1,6 +1,6 @@
 import * as t from 'babel-types';
 
-let find = require('lodash/collection/find');
+let find = require('lodash/find');
 
 let isResolvable = node => t.isObjectExpression(node) || t.isLiteral(node)
 

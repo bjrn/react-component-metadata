@@ -1,5 +1,5 @@
 import * as t from 'babel-types';
-let find = require('lodash/collection/find')
+let find = require('lodash/find')
   , doc = require('./util/comments');
 
 const BLACKLIST = [

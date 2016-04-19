@@ -7,8 +7,8 @@ let {
   , resolveToValue = require('./util/resolveToValue')
   , resolveToName = require('./util/resolveToName')
   , isReactClass = require('./util/isReactCreateClass')
-  , find = require('lodash/collection/find')
-  , uuid = require('lodash/utility/uniqueId')
+  , find = require('lodash/find')
+  , uuid = require('lodash/uniqueId')
   , doc = require('./util/comments');
 
 let isResolvable = resolveToValue.isResolvable

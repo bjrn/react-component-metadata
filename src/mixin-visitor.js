@@ -6,7 +6,7 @@ let {
   , parseDefaultProps } = require('./parseProps')
   , resolveToValue = require('./util/resolveToValue')
   , resolveToModule = require('./util/resolveToModule')
-  , find = require('lodash/collection/find')
+  , find = require('lodash/find')
   , doc = require('./util/comments')
   , path = require('path');
 

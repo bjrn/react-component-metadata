@@ -5,8 +5,8 @@ let {
   , parseDefaultProps } = require('./parseProps')
   , resolveToValue = require('./util/resolveToValue')
   , isReactComponentClass = require('./util/isReactComponentClass')
-  , find = require('lodash/collection/find')
-  , uuid = require('lodash/utility/uniqueId')
+  , find = require('lodash/find')
+  , uuid = require('lodash/uniqueId')
   , doc = require('./util/comments')
 
 
